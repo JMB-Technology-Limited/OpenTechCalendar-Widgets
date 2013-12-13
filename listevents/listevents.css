@@ -1,0 +1,153 @@
+div.OpenTechCalendarWidgetListEventData {
+  border: 1px solid black;
+  padding: 0;
+  margin: 0;
+  background: white;
+  font-family: arial, sans;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+div.OpenTechCalendarWidgetListEventData div,
+div.OpenTechCalendarWidgetListEventData span,
+div.OpenTechCalendarWidgetListEventData p,
+div.OpenTechCalendarWidgetListEventData a,
+div.OpenTechCalendarWidgetListEventData ol,
+div.OpenTechCalendarWidgetListEventData ul,
+div.OpenTechCalendarWidgetListEventData li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  line-height: 1;
+}
+div.OpenTechCalendarWidgetListEventData ol,
+div.OpenTechCalendarWidgetListEventData ul {
+  list-style: none;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventHeader {
+  color: white;
+  font-size: 14pt;
+  background: #2f569b;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventHeader a:link {
+  color: white;
+  text-decoration: none;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventHeader a:visited {
+  color: white;
+  text-decoration: none;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventHeader a:active {
+  color: white;
+  text-decoration: underline;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventHeader a:hover {
+  color: white;
+  text-decoration: underline;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEventNone {
+  color: black;
+  font-size: 12pt;
+  font-style: italic;
+  padding: 5px;
+  margin: 0;
+  background: white;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent {
+  padding: 5px;
+  margin: 0 0 10px 0;
+  background: white;
+  color: black;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent a:link {
+  color: blue;
+  text-decoration: underline;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent a:visited {
+  color: blue;
+  text-decoration: underline;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent a:active {
+  color: red;
+  text-decoration: underline;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent a:hover {
+  color: red;
+  text-decoration: underline;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent div.OpenTechCalendarWidgetListEventDate {
+  color: white;
+  font-size: 14pt;
+  float: left;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background: #231f20;
+  padding: 0;
+  margin: 4px;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent div.OpenTechCalendarWidgetListEventSummary {
+  color: black;
+  font-size: 14pt;
+  padding: 0;
+  margin: 0;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent div.OpenTechCalendarWidgetListEventDescription {
+  color: black;
+  font-size: 12pt;
+  padding: 0;
+  margin: 0;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent div.OpenTechCalendarWidgetListEventMoreLink {
+  color: black;
+  font-size: 12pt;
+  padding: 0;
+  margin: 0;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent div.OpenTechCalendarWidgetListEventClear {
+  padding: 0;
+  margin: 0;
+  clear: both;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventFooter {
+  color: white;
+  font-size: 10pt;
+  font-style: italic;
+  background: #2f569b;
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventFooter a:link {
+  color: white;
+  text-decoration: underline;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventFooter a:visited {
+  color: white;
+  text-decoration: underline;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventFooter a:active {
+  color: white;
+  text-decoration: underline;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventFooter a:hover {
+  color: white;
+  text-decoration: underline;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventFooter div.OpenTechCalendarWidgetFooterMore {
+  background: #2f569b;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventFooter div.OpenTechCalendarWidgetFooterCredit {
+  background: #2f569b;
+}
+div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventFooter div.OpenTechCalendarWidgetFooterSponsor {
+  background: #2f569b;
+}
