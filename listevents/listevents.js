@@ -3,7 +3,7 @@
  * @license BSD-3 Clause License
  */
 
-var OpenTechCalendarEventListWidget = {
+var OpenTechCalendarWidgetListEvents = {
 	cssAdded: false,
 	callBackFunctionCount: 0,
 	place: function(divid, options) {
@@ -40,36 +40,36 @@ var OpenTechCalendarEventListWidget = {
 
 		var target = usingOptions['openInNewWindow'] ? ' target="_BLANK"' : '';
 
-		div.innerHTML = '<div class="OpenTechCalendarWidgetListEventData">'+
-				'<div class="OpenTechCalendarWidgetListEventHeader"><a href="'+moreURL+'" '+target+' id="'+divid+'Title">'+OpenTechCalendarEventListWidget.escapeHTML(usingOptions.title?usingOptions.title:'Events')+'</a></div>'+
-				'<div class="OpenTechCalendarWidgetListEventEvents" id="'+divid+'Data">Loading</div>'+
-				'<div class="OpenTechCalendarWidgetListEventFooter">'+
-					'<div class="OpenTechCalendarWidgetFooterMore"><a href="'+moreURL+'" '+target+'>See more ...</a></div>'+
-					'<div class="OpenTechCalendarWidgetFooterCredit">Data from <a href="http://opentechcalendar.co.uk" '+target+'>Open Tech Calendar</a></div>'+
-					'<div class="OpenTechCalendarWidgetFooterSponsor" id="'+divid+'Sponsor">&nbsp;</div>'+
+		div.innerHTML = '<div class="OpenTechCalendarWidgetListEventsData">'+
+				'<div class="OpenTechCalendarWidgetListEventsHeader"><a href="'+moreURL+'" '+target+' id="'+divid+'Title">'+OpenTechCalendarWidgetListEvents.escapeHTML(usingOptions.title?usingOptions.title:'Events')+'</a></div>'+
+				'<div class="OpenTechCalendarWidgetListEventsEvents" id="'+divid+'Data">Loading</div>'+
+				'<div class="OpenTechCalendarWidgetListEventsFooter">'+
+					'<div class="OpenTechCalendarWidgetListEventsFooterMore"><a href="'+moreURL+'" '+target+'>See more ...</a></div>'+
+					'<div class="OpenTechCalendarWidgetListEventsFooterCredit">Data from <a href="http://opentechcalendar.co.uk" '+target+'>Open Tech Calendar</a></div>'+
+					'<div class="OpenTechCalendarWidgetListEventsFooterSponsor" id="'+divid+'Sponsor">&nbsp;</div>'+
 				'</div>'+
 			'</div>';
 		var dataDiv = document.getElementById(divid+"Data");
 		var headTag = document.getElementsByTagName('head').item(0);
 
-		if (!OpenTechCalendarEventListWidget.cssAdded  && usingOptions.loadCSS) {	
+		if (!OpenTechCalendarWidgetListEvents.cssAdded  && usingOptions.loadCSS) {	
 			var link = document.createElement("link");
 			link.type = "text/css"; 
 			link.href = "http://opentechcalendar.co.uk/css/widgetEventList.css?v=1"; 
 			link.rel = "stylesheet"; 
 			headTag.appendChild(link);
-			OpenTechCalendarEventListWidgetCssAdded = true;
+			OpenTechCalendarWidgetListEventsCssAdded = true;
 		}
 
-		OpenTechCalendarEventListWidget.callBackFunctionCount++;
-		window["OpenTechCallBackFunction"+OpenTechCalendarEventListWidget.callBackFunctionCount] = function(data) {			
+		OpenTechCalendarWidgetListEvents.callBackFunctionCount++;
+		window["OpenTechCallBackFunction"+OpenTechCalendarWidgetListEvents.callBackFunctionCount] = function(data) {			
 			var html = '';
 			var limit = Math.min(data.data.length, usingOptions.eventCount);
 			if (limit <= 0) {
-				html = '<div class="OpenTechCalendarWidgetListEventEventNone">No events</div>';
+				html = '<div class="OpenTechCalendarWidgetListEventsEventNone">No events</div>';
 			} else {
 				for (var i=0;i<limit;i++) {
-					html += OpenTechCalendarEventListWidget.htmlFromEvent(data.data[i], usingOptions.maxStringLength, target);
+					html += OpenTechCalendarWidgetListEvents.htmlFromEvent(data.data[i], usingOptions.maxStringLength, target);
 				}
 			}
 
@@ -100,17 +100,17 @@ var OpenTechCalendarEventListWidget = {
 
 		var script = document.createElement("script");
 		script.type = "text/javascript"; 
-		script.src = url+"?callback=OpenTechCallBackFunction"+OpenTechCalendarEventListWidget.callBackFunctionCount;
+		script.src = url+"?callback=OpenTechCallBackFunction"+OpenTechCalendarWidgetListEvents.callBackFunctionCount;
 		headTag.appendChild(script);
 
 	},
 	htmlFromEvent: function(event, maxLength, target) {
-		var html = '<div class="OpenTechCalendarWidgetListEventEvent">'
-		html += '<div class="OpenTechCalendarWidgetListEventDate">'+event.start.displaylocal+'</div>';
-		html += '<div class="OpenTechCalendarWidgetListEventSummary"><a href="'+event.siteurl+'" '+target+'>'+OpenTechCalendarEventListWidget.escapeHTML(event.summaryDisplay)+'</a></div>';
-		html += '<div class="OpenTechCalendarWidgetListEventDescription">'+OpenTechCalendarEventListWidget.escapeHTMLNewLine(event.description, maxLength)+'</div>';
-		html += '<a class="OpenTechCalendarWidgetListEventMoreLink" href="'+event.siteurl+'" '+target+'>More Info</a>';
-		html += '<div class="OpenTechCalendarWidgetListEventClear"></div>';	
+		var html = '<div class="OpenTechCalendarWidgetListEventsEvent">'
+		html += '<div class="OpenTechCalendarWidgetListEventsDate">'+event.start.displaylocal+'</div>';
+		html += '<div class="OpenTechCalendarWidgetListEventsSummary"><a href="'+event.siteurl+'" '+target+'>'+OpenTechCalendarWidgetListEvents.escapeHTML(event.summaryDisplay)+'</a></div>';
+		html += '<div class="OpenTechCalendarWidgetListEventsDescription">'+OpenTechCalendarWidgetListEvents.escapeHTMLNewLine(event.description, maxLength)+'</div>';
+		html += '<a class="OpenTechCalendarWidgetListEventsMoreLink" href="'+event.siteurl+'" '+target+'>More Info</a>';
+		html += '<div class="OpenTechCalendarWidgetListEventsClear"></div>';	
 		return html+'</div>';
 	},			
 	escapeHTML: function(str) {

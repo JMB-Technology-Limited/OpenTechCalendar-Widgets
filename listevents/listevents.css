@@ -1,4 +1,4 @@
-div.OpenTechCalendarWidgetListEventData {
+div.OpenTechCalendarWidgetListEventsData {
   border: 1px solid black;
   padding: 0;
   margin: 0;
@@ -10,13 +10,13 @@ div.OpenTechCalendarWidgetListEventData {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
-div.OpenTechCalendarWidgetListEventData div,
-div.OpenTechCalendarWidgetListEventData span,
-div.OpenTechCalendarWidgetListEventData p,
-div.OpenTechCalendarWidgetListEventData a,
-div.OpenTechCalendarWidgetListEventData ol,
-div.OpenTechCalendarWidgetListEventData ul,
-div.OpenTechCalendarWidgetListEventData li {
+div.OpenTechCalendarWidgetListEventsData div,
+div.OpenTechCalendarWidgetListEventsData span,
+div.OpenTechCalendarWidgetListEventsData p,
+div.OpenTechCalendarWidgetListEventsData a,
+div.OpenTechCalendarWidgetListEventsData ol,
+div.OpenTechCalendarWidgetListEventsData ul,
+div.OpenTechCalendarWidgetListEventsData li {
   margin: 0;
   padding: 0;
   border: 0;
@@ -25,11 +25,11 @@ div.OpenTechCalendarWidgetListEventData li {
   vertical-align: baseline;
   line-height: 1;
 }
-div.OpenTechCalendarWidgetListEventData ol,
-div.OpenTechCalendarWidgetListEventData ul {
+div.OpenTechCalendarWidgetListEventsData ol,
+div.OpenTechCalendarWidgetListEventsData ul {
   list-style: none;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventHeader {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsHeader {
   color: white;
   font-size: 14pt;
   background: #2f569b;
@@ -37,23 +37,23 @@ div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventHeade
   padding: 5px;
   margin: 0;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventHeader a:link {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsHeader a:link {
   color: white;
   text-decoration: none;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventHeader a:visited {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsHeader a:visited {
   color: white;
   text-decoration: none;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventHeader a:active {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsHeader a:active {
   color: white;
   text-decoration: underline;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventHeader a:hover {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsHeader a:hover {
   color: white;
   text-decoration: underline;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEventNone {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsEventNone {
   color: black;
   font-size: 12pt;
   font-style: italic;
@@ -61,29 +61,29 @@ div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent
   margin: 0;
   background: white;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsEvent {
   padding: 5px;
   margin: 0 0 10px 0;
   background: white;
   color: black;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent a:link {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsEvent a:link {
   color: blue;
   text-decoration: underline;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent a:visited {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsEvent a:visited {
   color: blue;
   text-decoration: underline;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent a:active {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsEvent a:active {
   color: red;
   text-decoration: underline;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent a:hover {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsEvent a:hover {
   color: red;
   text-decoration: underline;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent div.OpenTechCalendarWidgetListEventDate {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsEvent div.OpenTechCalendarWidgetListEventsDate {
   color: white;
   font-size: 14pt;
   float: left;
@@ -94,30 +94,30 @@ div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent
   padding: 4px;
   margin: 4px 10px 4px 4px;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent div.OpenTechCalendarWidgetListEventSummary {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsEvent div.OpenTechCalendarWidgetListEventsSummary {
   color: black;
   font-size: 14pt;
   padding: 0 0 4px 0;
   margin: 0;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent div.OpenTechCalendarWidgetListEventDescription {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsEvent div.OpenTechCalendarWidgetListEventsDescription {
   color: black;
   font-size: 12pt;
   padding: 0;
   margin: 0;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent div.OpenTechCalendarWidgetListEventMoreLink {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsEvent div.OpenTechCalendarWidgetListEventsMoreLink {
   color: black;
   font-size: 12pt;
   padding: 0;
   margin: 0;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventEvent div.OpenTechCalendarWidgetListEventClear {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsEvent div.OpenTechCalendarWidgetListEventsClear {
   padding: 0;
   margin: 0;
   clear: both;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventFooter {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsFooter {
   color: white;
   font-size: 10pt;
   font-style: italic;
@@ -126,28 +126,28 @@ div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventFoote
   padding: 5px;
   margin: 0;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventFooter a:link {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsFooter a:link {
   color: white;
   text-decoration: underline;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventFooter a:visited {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsFooter a:visited {
   color: white;
   text-decoration: underline;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventFooter a:active {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsFooter a:active {
   color: white;
   text-decoration: underline;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventFooter a:hover {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsFooter a:hover {
   color: white;
   text-decoration: underline;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventFooter div.OpenTechCalendarWidgetFooterMore {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsFooter div.OpenTechCalendarWidgetFooterMore {
   background: #2f569b;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventFooter div.OpenTechCalendarWidgetFooterCredit {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsFooter div.OpenTechCalendarWidgetFooterCredit {
   background: #2f569b;
 }
-div.OpenTechCalendarWidgetListEventData div.OpenTechCalendarWidgetListEventFooter div.OpenTechCalendarWidgetFooterSponsor {
+div.OpenTechCalendarWidgetListEventsData div.OpenTechCalendarWidgetListEventsFooter div.OpenTechCalendarWidgetFooterSponsor {
   background: #2f569b;
 }
